@@ -8,7 +8,11 @@ git clone https://github.com/ApostL78/PublishingCO.git && cd PublishingCO
 ```sh
 python3 -m venv venv && source ./venv/bin/activate
 ```
-3. Run server and migrate
+3. Install requirements
+```sh
+pip install -r requirements.txt
+```
+4. Run server and migrate
 ```sh
 python manage.py runserver && python manage.py migrate
 ```
